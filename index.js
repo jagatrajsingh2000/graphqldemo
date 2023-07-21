@@ -3,7 +3,7 @@ const { ApolloServer } = require("@apollo/server");
 const { expressMiddleware } = require("@apollo/server/express4");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const { default: axios } = require("axios");
+const axios= require("axios");
 
 const { USERS } = require("./user");
 const { TODOS } = require("./todo");
